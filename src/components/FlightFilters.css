@@ -1,0 +1,24 @@
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-label {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.filter-select {
+  background-color: #aba8a8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+.filter-select:focus {
+  box-shadow: 0 0 5px #fff;
+}
