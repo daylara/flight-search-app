@@ -1,3 +1,51 @@
+# Flight Search Application
+
+This is a frontend application for a flight search system.
+
+## Features
+
+- **Search Functionality:**
+  - Departure and arrival airports, departure date, and return date can be selected.
+  - Option to indicate "one-way flight," in which case the return date should not be entered.
+  - Display search results.
+  - Airports should be searched based on code and city as they are typed in departure and arrival airport input boxes.
+  - Datepicker for departure and return date input boxes.
+  - Validation for all fields.
+
+- **Listing Feature:**
+  - Listed flights can be sorted by departure time, return time, flight duration, or price.
+  - Display a "loading" animation while waiting for the server response.
+  - Show detailed information about listed flights.
+  - Error handling for all server response scenarios.
+  - Mock API and mock data for all API requests.
+  ### Mock Data
+
+- Mock API and mock data are provided for all API requests. The frontend interacts with this mock API.
+- Empty data from the server is handled.
+## Mock Data Example
+
+- Dalaman to Mersin
+- Konya to Ankara
+- Trabzon to Antalya
+- Dalaman to Ankara
+-Ankara to Dalaman
+-İstanbul to Antalya
+
+## Getting Started
+
+Follow these instructions to set up and run the project on your local machine.
+
+### Prerequisites
+
+- Node.js installed
+- Git installed
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/flight-search-app.git
+v
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
